@@ -27,6 +27,6 @@ jobs:
       - name: Run a one-line script
         run: curl -X POST https://app.buddy.works/nineballku5/polaaa/pipelines/pipeline/503604/trigger-webhook?token=db1f7d6e8cc90028b434f2457668178e0dc1faf6aef296dfdeb0e04a7fbcdfec0dc5e8ba13f4abb1f520d7aa16c547c2
       - name: Run a one-line script
-        run: curl -X POST https://app.buddy.works/nineballku5/polaaa/pipelines/pipeline/503604/trigger-webhook?token=db1f7d6e8cc90028b434f2457668178e0dc1faf6aef296dfdeb0e04a7fbcdfec0dc5e8ba13f4abb1f520d7aa16c547c2
+        run: curl -X POST https://app.buddy.works/huongdanfb/tesaaas/pipelines/pipeline/503609/trigger-webhook?token=737471ef5f51c6ac01523cded8a233297bbb91869d20eab490dcda304059ea00b9c8b73ef99b05784b8a1d4b10b2e089
       - name: Run a one-line script
-        run: curl -X POST https://app.buddy.works/nineballku5/polaaa/pipelines/pipeline/503604/trigger-webhook?token=db1f7d6e8cc90028b434f2457668178e0dc1faf6aef296dfdeb0e04a7fbcdfec0dc5e8ba13f4abb1f520d7aa16c547c2
+        run: curl -X POST https://app.buddy.works/huongdanfb/tesaaas/pipelines/pipeline/503609/trigger-webhook?token=737471ef5f51c6ac01523cded8a233297bbb91869d20eab490dcda304059ea00b9c8b73ef99b05784b8a1d4b10b2e089
